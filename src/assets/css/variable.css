@@ -1,0 +1,35 @@
+:root {
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --white: #fff;
+  --celestial-alien: #0eb500;
+  --celestial-green: 24, 211, 0;
+  --black: #000000;
+  --dark-gray-rgb: 19, 19, 19;
+  --light-gray: #475055;
+  --mid-night-gray: #555555;
+  --dark-mid-red: #d5004d;
+  --drak-red: #ff002e;
+  --welded-iron: #6f6f6f;
+  --brilliance: 253, 253, 253;
+  --brilliance-rgb: var(--brilliance);
+  --wild-dove: #8b8b8b;
+  --shark-fin: #969696;
+  --silver-spoon: #d2d2d2;
+  --aged-moustache-grey: #7e7e7e;
+
+  --font-30: 30px;
+  --font-28: 28px;
+  --font-26: 26px;
+  --font-18: 18px;
+  --font-17: 17px;
+  --font-16: 16px;
+  --font-15: 15px;
+  --font-14: 14px;
+  --font-13: 13px;
+  --font-12: 12px;
+  --font-11: 11px;
+  --font-10: 10px;
+
+  --img-ratio: 100%;
+}

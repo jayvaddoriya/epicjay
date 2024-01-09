@@ -1,0 +1,4 @@
+.home-layout-wrapper {
+  overflow: auto;
+  height: calc(100dh - 79px - 62px);
+}

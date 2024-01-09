@@ -1,0 +1,31 @@
+.btn {
+  border-color: transparent !important;
+  outline: none;
+  font-weight: 600;
+  line-height: 1;
+  padding: 17px;
+  min-height: 50px;
+  text-align: center;
+  width: 100%;
+  border-radius: 30px;
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background: linear-gradient(0deg, #0eb500 0%, rgba(24, 211, 8, 0) 50%),
+    #18d308;
+}
+
+
+.btn-primary-opacity {
+  background-color: rgba(var(--brilliance-rgb), 0.10);
+  color: var(--wild-dove);
+}
+
+.btn-primary:hover,
+:where(.css-dev-only-do-not-override-dkbvqv).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  background: #18d30885;
+  border-color: #18d30885;
+  color: var(--white);
+}

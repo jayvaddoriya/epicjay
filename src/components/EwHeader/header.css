@@ -1,0 +1,24 @@
+.header-wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.header-right-side {
+  justify-self: flex-end;
+}
+
+.login-button-wrapper {
+  align-items: center;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.11);
+  padding: 5px 6px 5px 15px;
+  border-radius: 25px;
+}
+
+.login-button {
+  min-height: 27px;
+  width: 27px;
+  padding: 0;
+  height: 100%;
+}

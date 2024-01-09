@@ -1,0 +1,11 @@
+@media (min-width: 576px){
+    .container {
+        max-width: 375px;
+    }      
+}
+
+@media (max-width: 349px){
+    .verification-wrapper .input-otp{
+      gap: 10px;
+    }
+}

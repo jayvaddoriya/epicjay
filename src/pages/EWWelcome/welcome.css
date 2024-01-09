@@ -1,0 +1,89 @@
+.welcome-page-wrapper {
+  background: url(../../assets/images/background/loginbg.png),
+    linear-gradient(0deg, #d5004d -42.28%, rgba(255, 0, 92, 0) 33.33%), #141515;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 50px 20px 20px;
+}
+
+.welcome-page-content-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-bounes {
+  border-radius: 17px;
+  background: #d5004d;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.welcome-page-avater-wrppaer {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.welcome-page-avater {
+  background-color: var(--white);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  max-width: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+}
+
+.avater-icon {
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  right: 0;
+  bottom: -10px;
+}
+
+.welcome-bounes-money {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.welcome-bounes-money {
+  font-weight: 600;
+  line-height: 100%;
+  /* 28px */
+}
+
+.welcome-bounes p {
+  font-weight: 500;
+  line-height: 130%;
+  /* 19.5px */
+}
+
+.welocme-cleint-text {
+  font-weight: 600;
+  line-height: 110%;
+  /* 19.8px */
+}
+
+.welocme-text {
+  text-align: center;
+}
+
+.welocme-text span {
+  margin: 10px 0;
+  display: block;
+}

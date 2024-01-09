@@ -1,0 +1,122 @@
+.login-wrapper {
+  background-image: url(../../assets/images/background/loginbg.png);
+  height: 100vh;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.sign-up-lable {
+  color: var(--mid-night-gray);
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* 13px */
+  margin-top: 10px;
+}
+
+.sign-up-link {
+  color: var(--celestial-alien);
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* 13px */
+  text-decoration-line: underline;
+  padding-left: 6px;
+}
+
+.login-bottom-wrapper {
+  margin-top: auto;
+  background: linear-gradient(0deg, #171717 36.49%, rgba(30, 33, 35, 0) 100%);
+  background-size: 800px;
+  padding: 100px 20px 20px;
+  z-index: 1;
+}
+
+.login-bottom-input {
+  margin-bottom: 18px;
+}
+
+.login-header-logo {
+  top: 20px;
+  left: 20px;
+  z-index: 3;
+}
+
+.login-botton-content-wrapper {
+  margin-bottom: 20px;
+}
+
+.login-botton-content-wrapper h1 {
+  font-weight: 700;
+  line-height: 115%;
+  /* 34.5px */
+  letter-spacing: 0.9px;
+  font-size: 30px;
+}
+
+.login-bottom-listing-wrapper {
+  list-style-image: url("../../assets/svg/check.svg");
+  margin-inline-start: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.login-dhoni-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.verification-wrapper {
+  background: linear-gradient(0deg, #000 1.17%, rgba(16, 18, 19, 0.00) 109.34%), #141515;
+  padding: 100px 20px 20px;
+  background-image: url(./../../assets/images/background/loginbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.change-number-label {
+  background-color: rgba(var(--brilliance-rgb), 0.10);
+  color: var(--silver-spoon);
+  min-width: 170px;
+  min-height: 40px;
+  padding: 5px;
+  border-radius: 30px;
+  width: max-content;
+}
+
+.input-otp__field {
+  border-color: var(--aged-moustache-grey);
+  border-width: 2px;
+  background-color: transparent;
+  color: var(--white);
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-input:hover {
+  border-color: var(--celestial-alien);
+}
+
+.verification-wrapper .input-otp__field {
+  height: 55px;
+}
+
+@media (max-width: 349px) {
+  .login-botton-content-wrapper h1 {
+    font-size: 24px;
+  }
+}
